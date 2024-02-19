@@ -1,0 +1,89 @@
+/*Reset styles*/
+html {
+    -webkit-text-size-adjust: none;
+    font-family: system-ui, Montserrat, Helvetica, Arial, sans-serif !important;
+}
+
+* {
+    box-sizing: border-box;
+    outline: none !important;
+    -webkit-overflow-scrolling: touch;
+    touch-action: manipulation;
+    -webkit-text-size-adjust: none;
+}
+*:not(input) {
+    box-sizing: border-box;
+    outline: none !important;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/*body {*/
+/*    overflow: hidden;*/
+/*    touch-action: pan-x pan-y;*/
+/*}*/
+html, body {
+    pointer-events: none;
+    height: 100%;
+}
+body * {
+    pointer-events: auto;
+}
+a, li, button {
+    -webkit-tap-highlight-color: transparent;
+}
+input[type=text], input[type=submit], textarea{
+    -webkit-appearance: none;
+}
+
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    margin: 0;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*End Reset styles*/

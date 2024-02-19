@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title><%= htmlWebpackPlugin.options.title %></title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="<%= htmlWebpackPlugin.options.metaDesc %>" />
+
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mdbassit/Coloris@latest/dist/coloris.min.css"/>
+<script src="https://cdn.jsdelivr.net/gh/mdbassit/Coloris@latest/dist/coloris.min.js"></script>
+</head>
+<body class="light scroll_bar_style">
+
+
+    <h4 class="app_settings_title">Text Settings</h4>
+
+    <div class="app_settings_item">
+      <div class="app_settings_item_head">
+        <div class="question_mark">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 15">
+            <path d="M7.5,15A7.5,7.5,0,1,1,15,7.5,7.5,7.5,0,0,1,7.5,15Zm0-14A6.5,6.5,0,1,0,14,7.5,6.51,6.51,0,0,0,7.5,1Z"/>
+            <path d="M6.78,8.75V8.59A2,2,0,0,1,8,6.8c.68-.42.94-.8.94-1.4A1.29,1.29,0,0,0,7.46,4.12,1.42,1.42,0,0,0,6,5.22c-.1.36-.23.47-.49.47A.43.43,0,0,1,5,5.21a1.47,1.47,0,0,1,.15-.68A2.36,2.36,0,0,1,7.5,3.21,2.24,2.24,0,0,1,10,5.35a2.23,2.23,0,0,1-1.22,2c-.74.44-1,.77-1,1.39,0,.37-.14.62-.5.62S6.78,9.09,6.78,8.75Zm-.15,2.37a.67.67,0,1,1,.66.67A.66.66,0,0,1,6.63,11.12Z"/>
+          </svg>
+          <div class="tool_tip bottom">The information contained within the QR code</div>
+        </div>
+        <p class="app_settings_item_title">Title:</p>
+      </div>
+      <div class="app_settings_item_body">
+        <input type="text" id="myTextToDetect" class="app_settings_item_text_input">
+      </div>
+    </div>
+
+
+    <h4 class="app_settings_title">Colors</h4>
+
+    <div class="app_settings_item">
+      <div class="app_settings_item_head">
+        <p class="app_settings_item_title">Background color:</p>
+      </div>
+      <div class="app_settings_item_body">
+        <input type="text" id="backgroundColorSelector" class="app_settings_item_text_input" data-coloris>
+      </div>
+    </div>
+
+    <div class="app_settings_item">
+      <div class="app_settings_item_head">
+        <p class="app_settings_item_title">Cube colors:</p>
+      </div>
+      <div class="app_settings_item_body">
+        <input type="text" id="cubeColorSelector" class="app_settings_item_text_input" data-coloris>
+      </div>
+    </div>
+
+</body>
+</html>
