@@ -1,7 +1,7 @@
 
 import EvmuxAppsApi from 'evmux-app-framework/src/EvmuxAppsApi/EvmuxAppsApi'
 let api = new EvmuxAppsApi();
-
+window.evmuxApi = api
 import resetStyles from './css/reset.css'
 import evmuxUiStyles from './css/evmuxUiStyles.css'
 
