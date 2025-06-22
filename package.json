@@ -24,6 +24,6 @@
     "archiver": "^7.0.1"
   },
   "dependencies": {
-    "evmux-app-framework": "^0.0.75"
+    "evmux-app-framework": "^0.0.90"
   }
 }
